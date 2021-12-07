@@ -1,0 +1,22 @@
+Create Table arbeitsplatz
+(
+aID int not null,
+kuezel varchar(20),
+rüstzeit int,
+statID int,
+Primary key (aID),
+FOREIGN KEY (statID) REFERENCES station(statID)
+);
+
+aID, Kürzel, rüstzeit, statId
+10, Montage, 15, 1001
+11, Montage, 20, 1002
+12, Fließband, 15, 1011
+13, Anlage, 30, 1003
+14, kommisionierung, 15, 1001
+15, Kommisionierung, 15, 1011
+16, Anlage, 30, 1008
+17, Montage, 15, 1007
+18, Fließband, 20, 1001
+19, Controlling, 15, 1002
+20, Controlling, 15, 1001

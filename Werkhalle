@@ -1,0 +1,12 @@
+Create Table werkhalle
+(
+werkID int not null,
+werkname varchar(30),
+werkort varchar(30),
+werkgroese int,
+Primary key (werkID)
+);
+
+werkID, Werkname, werkort, Werkgroesse
+
+10001, Gießerei, Ulm-Eselsberg, 

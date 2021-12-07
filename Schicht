@@ -1,0 +1,17 @@
+Create Table schicht
+(
+schichtID int not null,
+schichtbeginn time,
+schichtende time,
+schichtname varchar(20),
+Primary key (schichtID)
+);
+
+
+
+SchichtID, Schichtbeginn, Schichtende, name
+1, '06:00:00', '14:00:00', Früh
+2, '14:00:00', '22:00:00', Spät
+3, '22:00:00', '06:00:00', Nacht
+4, '06:00:00', '12:30:00', Samstagschicht
+5, '12:00:00', '21:00:00', Feiertag

@@ -9,4 +9,7 @@ Primary key (werkID)
 
 werkID, Werkname, werkort, Werkgroesse
 
-10001, Gießerei, Ulm-Eselsberg, 
+10001, Gießerei, Ulm-Eselsberg, 10000
+10002, Elektronics, Esslingen, 10000
+10003, Produktion, Ulm, 100000
+10004, Montage, Neu-Ulm, 50000

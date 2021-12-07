@@ -12,3 +12,6 @@ FOREIGN KEY (statID) REFERENCES station(statID)
 
 
 mitID, vorname, nachname, stempelkartennummer, statID
+1, Andreas, Müller, 200001, 1001
+2, Steffen, Kuntz, 200002, 1001
+3, Jürgen, Klopp, 200003, 1002

@@ -1,0 +1,14 @@
+Create Table mitarbeiter
+(
+mitID int not null,
+vorname varchar(20),
+nachname varchar(20),
+stempelkartennummer int,
+statID int,
+Primary key (mitID),
+FOREIGN KEY (statID) REFERENCES station(statID)
+);
+
+
+
+mitID, vorname, nachname, stempelkartennummer, statID
